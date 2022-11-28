@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP JV Post Reading Groups 2.1\n"
+"POT-Creation-Date: 2016-05-17 18:59+0100\n"
+"PO-Revision-Date: 2017-03-18 20:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: Janos Ver\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-"
+"post-reading-groups\n"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:39
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:476
+msgid "Create some groups first at"
+msgstr "Előbb hozz létre néhány csoportot a "
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:41
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:478
+msgid "Settings -> Reading"
+msgstr "Beállítások->Olvasás menüpontban"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:45
+msgid "Select who can read this post"
+msgstr "Add meg ki olvashatja ezt a bejegyzést"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:111
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:119
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:297
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:304
+msgid "Reading Group"
+msgstr "Olvasási csoport"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:112
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:540
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:573
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:603
+msgid "Reading Groups"
+msgstr "Olvasási csoportok"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:182
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:188
+msgid "Delete"
+msgstr "Törlés"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:249
+msgid "Reading Group name"
+msgstr "A következő olvasási csoport név:"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:249
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:297
+msgid "already exists."
+msgstr "már létezik."
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:255
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:309
+msgid "Please specify a valid Reading Group name."
+msgstr "Légy szíves adj meg egy érvényes olvasási csoport nevet."
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:304
+msgid "does not  exists."
+msgstr "nem létezik"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:409
+msgid "Create your Reading Groups and then assign these to"
+msgstr "Hozd létre a saját olvasási csoportjaid és aztán rendeld őket"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:409
+msgid "users"
+msgstr "felhasználókhoz"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:414
+msgid "Reading Group Name"
+msgstr "Olvasási csoport név"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:417
+msgid "Add New Reading Group"
+msgstr "Új olvasási csoport hozzáadása"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:459
+msgid "Administrators access all posts."
+msgstr "Az adminisztrátorok minden bejegyzéshez hozzáférnek."
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:463
+msgid "Grant permissions for the following Reading Group(s)"
+msgstr "Jogosultságot kap a következő olvasási csoport(ok)hoz"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:550
+msgid "Access all RGs"
+msgstr "Elér minden olvasási csoportot"
+
+#: d:/webserver/htdocs/test/wp-content/plugins/wp-jv-post-reading-groups/wp-jv-post-reading-groups.php:873
+#, php-format
+msgid "Private: %s"
+msgstr ""

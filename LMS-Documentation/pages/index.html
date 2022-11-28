@@ -1,0 +1,1785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="UISumo Team">
+    <title>KnowingGod LMS - Documentation</title>
+    <link rel="icon" href="../images/favicon.png" sizes="16x16" type="image/png">
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../dist/css/style.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="index.html"> KnowingGod</a> </div>
+            <!-- /.navbar-header -->
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul  class="nav" id="side-menu">
+						<li><a class="current navitem" href="#documenter_cover"  data-id="documenter_cover">Start</a></li>
+							
+						<li><a href="#overview" title="Overview" class="navitem" data-id="overview">Overview</a></li>
+						<li><a href="#requirements" title="Requirements" class="navitem" data-id="requirements">Requirements</a></li>
+						<li><a href="#installation" title="Installation" class="navitem" data-id="installation">Installation</a></li>
+						
+						<li><a href="#demo_accounts" title="demo_accounts" class="navitem" data-id="demo_accounts">Demo Accounts</a></li>
+						
+						<li><a href="#home_page" title="Home page" class="navitem" data-id="home_page">Home page</a></li>
+						<li><a href="#login" title="Login" class="navitem" data-id="login">Login</a></li>
+						<li><a href="#master_settings" title="Master Settings" class="navitem" data-id="master_settings">Master Settings</a></li>
+						<li><a href="#languages" title="Languages" class="navitem" data-id="languages">Languages</a></li>
+						<li><a href="#users" title="Users" class="navitem" data-id="users">Users</a></li>
+						<li><a href="#Pathways" title="Pathways" class="navitem" data-id="Pathways">Pathways</a></li>
+						<li><a href="#categories" title="Categories" class="navitem" data-id="categories">Categories</a></li>
+						<li><a href="#question_bank" title="Question Bank" class="navitem" data-id="question_bank">Question Bank</a></li>
+						<li><a href="#instructinos" title="Instructinos" class="navitem" data-id="instructinos">Instructions</a></li>
+						<li><a href="#quizzes" title="Quizzes" class="navitem" data-id="quizzes">Quizzes</a></li>
+						<li><a href="#lms_contents" title="LMS Contents" class="navitem" data-id="lms_contents">LMS </a></li>
+						<li><a href="#payment_reports" title="Payment Reports" class="navitem" data-id="payment_reports">Donations</a></li>
+						<!-- <li><a href="#notifications" title="Notifications" class="navitem" data-id="notifications">Notifications</a></li> -->
+						<li><a href="#feedbacks" title="Feedbacks" class="navitem" data-id="feedbacks">Feedbacks</a></li>
+						
+						<li><a href="front-end.html" title="Front End" class="navitem" data-id="front_end">Front End</a></li>
+
+					</ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <div id="page-wrapper">
+            <div class="row heading_row" id="documenter_cover">
+                <div class="col-lg-12">
+                    <h1 class="page-header">KnowingGod.Org</h1> 
+					<ol>
+					<li>Created: 11/27/2017</li>
+					<li>Latest update: 11/27/2017</li>
+					<li>By: Conquerors Software Technologies Pvt. Ltd</li>
+					<li><a href="http://conquerorstech.net/">conquerorstech.net/</a></li>
+					<li>Email: <a href="mailto:&#115;&#97;&#109;&#115;&#111;&#110;&#64;&#99;&#111;&#110;&#113;&#117;&#101;&#114;&#111;&#114;&#115;&#116;&#101;&#99;&#104;&#46;&#110;&#101;&#116;">&#115;&#97;&#109;&#115;&#111;&#110;&#64;&#99;&#111;&#110;&#113;&#117;&#101;&#114;&#111;&#114;&#115;&#116;&#101;&#99;&#104;&#46;&#110;&#101;&#116;</a></li>
+					</ol> 
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>	
+			
+			 
+
+			<div class="row heading_row" id="overview">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Overview</h1> 
+					<p>
+			KG is not just a WordPress (CMS) or a LMS (Laravel) site, it is a site that assists the interaction of a user with other people and a set of Pathway content to lead them to a personal relationship with the living GOD. System will run on two different platforms WordPress and Laravel by sharing single database. This document will explore the features of Laravel Site.
+			</p>
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="requirements">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Requirements</h1> 
+					<p>
+					<ol>
+					<li>
+						PHP &gt;= 7.0</li>
+					<li>
+						Mcrypt PHP Extension.</li>
+					<li>
+						OpenSSL PHP Extension.</li>
+					<li>
+						Mbstring PHP Extension.</li>
+					<li>
+						Tokenizer PHP Extension.</li>
+					<li>
+						PHP Fileinfo extension must be installed/enabled to use Intervention Image.</li>
+					<li>
+						&nbsp;PHP needs to have the&nbsp;zip extension&nbsp;installed for excel upload below are links:</li>
+					<li>
+						<a href="http://www.php.net/manual/en/zip.installation.php" target="_blank">http://www.php.net/manual/en/zip.installation.php</a></li>
+					<li>
+						<a href="http://www.php.net/manual/en/book.zip.php" target="_blank">http://www.php.net/manual/en/book.zip.php</a></li>
+				</ol>
+					</p>
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			
+			<div class="row heading_row" id="installation">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Installation</h1> 
+<p><font color="red">Will update it later</font></p>
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			<div class="row heading_row" id="demo_accounts">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Demo Accounts</h1> 
+					<p><b>Admin</b>
+					<ul>
+						<li>User Name: cstplglobal@gmail.com</li>
+						<li>Password: 5gY4wYxR8k</li>
+					</ul>
+					Note: When loginto admin account it will loginto the WordPress admin. There you will find link to enter into LMS admin area.
+					
+					<img src="../images/LMS link in admin.png " class="img-responsive">
+					</p>
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="home_page">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Home Page</h1> 
+					
+                   <img src="../images/Knowing%20God%20Dev%20%E2%80%93%20Just%20another%20WordPress%20site.png " class="img-responsive">
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="login">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Login</h1> 
+					<img src="../images/Knowing%20God.png " class="img-responsive">
+
+					</div>
+                <!-- /.col-lg-12 -->
+
+            </div>
+			
+			
+			<div class="row heading_row" id="master_settings">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Master Settings</h1> 
+					<p>Master Settings have below subsettings and those can control the total site based on the requirement.</p>
+
+<ol style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Site Settings</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Payment Gateway Settings (Stripe and Paypal)
+		<ul>
+			<li style="list-style: none">A) Stripe Settings (<font color="red">Will update it later</font> )</li>
+			<li style="list-style: none">B) Paypal Settings</li>
+		</ul>
+	</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; "> Email Settings</li>
+	
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; "> Email Templates</li>
+		<img src="../images/Settings.png " class="img-responsive">
+
+
+	
+</ol>
+<p style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+	&nbsp;</p>
+
+<!-- Card -->
+<div class="card">
+	<div class="card-header">1)&nbsp;Site Settings</div>
+	<div class="card-body">
+		<!-- Card content -->
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Contains the settings for the site. Please find the description of each field</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Site Title:&nbsp;</span>The title of the site</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Site Logo:&nbsp;</span>Logo for the site that will be shown</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Site Favicon:</span>&nbsp;Favicon for the website</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Site Address, City, &nbsp;State, Country, Zipcode, and Phone:&nbsp;</span>These details will be displayed at contact us part</p>
+  <img src="../images/Site%20Settings.png " class="img-responsive">
+		<!-- /Card content -->
+	</div>
+</div>
+<!-- /Card -->
+
+<!-- Card -->
+<div class="card">
+	<div class="card-header">2)&nbsp;Payment Gateway Settings</div>
+	<div class="card-body">
+		<!-- Card content -->
+<h3 style="margin: 18px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-size: 26px;  vertical-align: baseline; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline;">Paypal Settings</span></h3>
+
+		<!-- /Card content -->
+		<img src="../images/Paypal%20Settings.png " class="img-responsive">
+
+	</div>
+</div>
+<!-- /Card -->
+
+<!-- Card -->
+<div class="card">
+	<div class="card-header">3)&nbsp;Email Settings</div>
+	<div class="card-body">
+		<!-- Card content -->
+
+<div class="alert alert-info" style="margin: 0px; outline: 0px;  vertical-align: baseline;">
+	This module provides 8 mail drivers for sending emails. The supported drivers are: SMTP, &nbsp;Mail,&nbsp;Sendmail,&nbsp;Mailgun,&nbsp;Mandrill,&nbsp;SES, Spark post, Log</div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Mail Driver:</span>&nbsp;ЫЬЕЗ</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Mail Host:&nbsp;</span>Update your hosting server</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Mail Port:&nbsp;</span>Port number</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Mail Username:&nbsp;</span>Admin/user email for sending emails</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Mail Password:&nbsp;</span>Email Password</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Mail Encryption:&nbsp;</span>default set to null</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+		<!-- /Card content -->
+		<img src=" ../images/Email%20Settingsc.png" class="img-responsive">
+	</div>
+</div>
+<!-- /Card -->
+
+
+<!-- Card -->
+<div class="card">
+	<div class="card-header">5)Email Templates</div>
+	<div class="card-body">
+		<!-- Card content -->
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+			In this module, you can edit email templates as per your requirement</p>
+		<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+			We have divided this template into 3 parts</p>
+		<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+			1) Header</p>
+		<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+			2) Content</p>
+		<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+			3) Footer</p>
+		<div class="alert alert-info" style="margin: 0px; outline: 0px;  vertical-align: baseline;">
+			Here the header and footer are common templates for all the email templates. Change at one place and it will be updated in all other templates.</div>
+		<br><div class="alert alert-info" style="margin: 0px; outline: 0px;  vertical-align: baseline;">
+			You can edit the Content part as per your requirement in each template.</div>
+		<!-- /Card content -->
+		<img src=" ../images/Edit%20Template.png" class="img-responsive">
+
+	</div>
+</div>
+<!-- /Card -->
+
+</p>
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="languages">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Languages</h1> 
+                    <h4>Features</h4>
+					
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	This module helps you to make your site multilingual</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Here we provided flexibility for user to change the site language as per the requirement</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	In this, you can create, edit or delete the languages</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	At any point in time, you can set any one language as the default language.</p>
+
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Language strings created by itself</span>
+		<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+				<div class="alert alert-info" style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+					By creating any new language, no need to update the strings. Our algorithm will generate the language strings from you and Google API. For this, you have to traverse the total site for the first time, so that our algorithm will fetch the strings from Google API and saves to the database. From the next visit, it will fetch the language strings from database</div>
+			</li>
+		</ul>
+	</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Lazy loading</span>
+		<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+				<div class="alert alert-info" style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+					As we are using&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Lazy Loading&nbsp;</span>the&nbsp;language strings the performance will be good.</div>
+			</li>
+		</ul>
+	</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Option for edit strings&nbsp;</span>
+		<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+				<div class="alert alert-info" style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+					With this option, if the strings generated by Google are not meaningful as per the language specification then you can edit the strings manually as per your requirement</div>
+			</li>
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+				<div class="alert alert-info" style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+					Note: The Updated Language Strings are Effected only when user re-set &nbsp;the default language</div>
+
+
+			</li>
+		</ul>
+	</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Set the default language</span>
+		<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">
+			<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+				<div class="alert alert-info" style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+					With a single click, you can change the site to default language</div>
+					<img src=" http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Languages1.png" class="img-responsive">
+			</li>
+		</ul>
+	</li>
+</ul>
+
+					</div>
+
+                <!-- /.col-lg-12 -->
+                
+
+            </div>
+			
+			
+			<div class="row heading_row" id="users">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Users</h1> 
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	With this module, you can control all the users of the site</p>
+<ul>
+	<li>Multiple user types - It supports total of 3 types of users
+		<ol>
+			<li><b>Owner:</b> This user will have all options enabled in the site</li>
+			<li><b>Admin</b> This user will have all options except delete option for the records</li>
+			<li><b>Subscriber: </b> This is a normal user who will have normal option enabled for taking the quiz and viewing the reports</li>
+		</ol>
+	</li>
+	<li>View detailed reports of user</li>
+	<li>Import users by Excel
+		<ul>
+			<li>With this module, Admin can import the user into excel</li>
+			<li>For any failed records, an excel sheet will be downloaded with detailed error report and success report</li>
+			<li>The maximum no. of user records per excel sheet is 2000.</li>
+		</ul>
+	</li>
+</ul>
+<br>
+
+<div class="alert alert-success" style="margin: 0px; outline: 0px;  vertical-align: baseline;">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">The difference between Owner and Admin is, Owner can delete any record but admin cannot delete</span></div>
+<br><br>
+
+<!-- Card -->
+<div class="card">
+	<div class="card-body">
+		<!-- Card content -->
+
+		<h4>Subscriber Features</h4>
+		<ul>
+			<li>Subscriber  is having flexible options  for settings</li>
+			<li>Can take exams with many options</li>
+			<li>Multiple payment gateways</li>
+			<li>Detailed time and marks analysis reports</li>
+			<li>Detailed subject wise analysis reports</li>
+			<li>LMS module</li>
+			<li>Quiz modules</li>
+		</ul>
+
+		<!-- /Card content -->
+	</div>
+</div>
+<!-- /Card -->
+
+<!-- Card -->
+<div class="card">
+	<div class="card-body">
+		<!-- Card content -->
+		<h4>List Users</h4>
+
+		<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Users1.png" class="img-responsive">
+
+		
+
+		<!-- /Card content -->
+	</div>
+</div>
+<!-- /Card -->
+
+<!-- Card -->
+<div class="card">
+	<div class="card-body">
+		<!-- Card content -->
+		<h4>Add Users</h4>
+		
+
+		<!-- /Card content -->
+		<img src="../images/Add%20User.png " class="img-responsive">
+
+	</div>
+</div>
+<!-- /Card -->
+
+<!-- Card -->
+<div class="card">
+	<div class="card-body">
+		<!-- Card content -->
+		<h4>Import Users</h4>
+		
+
+		<!-- /Card content -->
+		<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Import%20Users.png" class="img-responsive">
+
+	</div>
+</div>
+<!-- /Card -->
+<!-- Card -->
+<div class="card">
+	<div class="card-body">
+		<!-- Card content -->
+		<h4>Update the Template</h4>
+		
+
+		<!-- /Card content -->
+		<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Excel%20users%20Explanation_2.png" class="img-responsive">
+
+	</div>
+</div>
+<!-- /Card -->
+
+
+<p>
+	&nbsp;</p>
+<div>
+	&nbsp;</div>
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="Pathways">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Pathways</h1> 
+     <h4>Features</h4>            
+     <ul>
+		<li>Maintain the list of Pathways along with Pathways code </li>
+		<li>Import Pathways with excel</li>
+	</ul>
+<br>
+<!-- Card -->
+<div class="card">
+	<div class="card-body">
+		<!-- Card content -->
+		<h4>List Pathways</h4>
+		
+
+		<!-- /Card content -->
+		<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Pathways.png" class="img-responsive">
+
+	</div>
+</div>
+<!-- /Card -->
+
+<!-- Card -->
+<div class="card">
+	<div class="card-body">
+		<!-- Card content -->
+		<h4>Import Questions</h4>
+		
+
+		<!-- /Card content -->
+		<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Import%20Questions.png" class="img-responsive">
+
+	</div>
+</div>
+<!-- /Card -->
+
+</section>
+
+
+
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+		<div class="row heading_row" id="categories">
+            <div class="col-lg-12">
+                <h1 class="page-header">Categories</h1>
+               <h4>Features</h4>             
+			     <ul>
+					<li>Easy to create, edit and delete </li>
+					<li>These are used to group similar type of quizzes under one name</li>
+				</ul>
+
+                <!-- Card -->
+				<div class="card">
+					<div class="card-body">
+						<!-- Card content -->
+						<h4>List Categories</h4>
+						
+
+						<!-- /Card content -->
+						<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Quiz%20Categories1.png" class="img-responsive">
+
+					</div>
+				</div>
+				<!-- /Card -->
+				 <!-- Card -->
+				<div class="card">
+					<div class="card-body">
+						<!-- Card content -->
+						<h4>Add Category</h4>
+						
+
+						<!-- /Card content -->
+						<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Create%20Category.png" class="img-responsive">
+
+					</div>
+				</div>
+				<!-- /Card -->
+
+
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="question_bank">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Question Bank</h1> 
+					
+
+	<h4>Features</h4>
+	<ul  style="    padding-left: 16px;">
+		<li>Can create any no. of questions for each subject and topic without any limit</li>
+		<li>And these questions can be added to specific quiz (category)</li>
+		<li>7 types of questions are supported
+			<ol>
+				<li>Single answer questions / Radio box questions</li>
+				<li>Multi answer questions / Checkbox questions</li>
+				<li>Fill in the blanks questions / Textbox questions</li>
+				<li>Match the following questions</li>
+				<li>Paragraph questions</li>
+				<li>Video question</li>
+				<li>Audio questions</li>
+			</ol>
+		</li>
+		<li>This module is having an option to set a benchmark for answer time for each question so that the performance of the student can be evaluated </li>
+		<li>3 types of difficulty levels are given
+			<ol>
+				<li>Easy</li>
+				<li>Medium</li>
+				<li>Hard</li>
+			</ol>
+		</li>
+		<li>Hint and explanation fields are given for each question</li>
+		<li>Questions upload with excel</li>
+		<li>Detailed report will be Downloaded after excel questions upload</li>
+
+		<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Upload%20Question.png" class="img-responsive">
+
+	</ul>
+
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="instructinos">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Instructions</h1> 
+                    <h4>Features</h4>               
+			     <ul>
+					<li>Separate instructions set can be maintained for each quiz </li>
+					<li>Easy to create and use</li>
+				</ul>
+
+					</div>
+                <!-- /.col-lg-12 -->
+                <img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Instructions.png" class="img-responsive">
+                 <!-- Card -->
+				<div class="card">
+					<div class="card-body">
+						<!-- Card content -->
+						<h4>Add Instructions </h4>
+						
+
+						<!-- /Card content -->
+						<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Add%20Instructions.png" class="img-responsive">
+
+					</div>
+				</div>
+				<!-- /Card -->
+
+
+            </div>
+			
+			
+			<div class="row heading_row" id="quizzes">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Quizzes</h1> 
+<h4>Features</h4>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		First, create quiz and later update questions in it</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Total marks of a quiz is based on the questions added to it</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Pass marks are decided bypass percentage given in quiz</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Quiz will be displayed to user based on the given start and end dates</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		The quiz may be paid or free</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		The paid quizzes will have the cost and validity period</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		User-friendly interface to update or delete the questions</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		While updating the questions to quiz, handy filters are given to pick your question from large dataset</li>
+</ul>
+<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>List Quizzes</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Quizzes.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Create Quiz</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Create%20Quiz.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+<div>
+	&nbsp;</div>
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="lms_contents">
+                <div class="col-lg-12">
+                    <h1 class="page-header">LMS</h1> 
+<div class="page-header" style="margin: 0px; padding: 0px; border: 0px; outline: 0px;  vertical-align: baseline; color: rgb(56, 56, 56);">
+
+	<div class="page-header" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">
+		<hr class="notop" style="height: 0px; line-height: 0px; border-right: 0px; border-left: 0px; border-image: initial; border-top-style: solid; border-top-color: rgb(235, 235, 235); border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); margin: 0px 0px 16px; padding: 0px; clear: both; float: none;">
+	</div>
+	<h4>List Courses</h4>
+</div>
+<ul >
+	
+		<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Courses.png" class="img-responsive">
+
+		</li>
+	
+	</ul>
+	<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Create Course</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Add%20Course.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>List Modules</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Modules.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Create Module</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Add%20Module.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>List Lessons</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Lessons.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Create Lesson</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Add%20Lesson.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+
+		
+					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="payment_reports">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Donations</h1> 
+<h4>Features</h4>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Payment Reports</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Detailed chart reports for payments</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Detailed chart reports for success, failed and pending payments</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Generate report to excel with all type of combinations</li>
+	
+</ul>
+<p style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); ">
+	&nbsp;</p>
+
+	<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Donations Dashboard</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Donations.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>List Donations</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/All%20Payments.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Export Donations Report</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Export%20Payments%20Report.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+<div>
+	
+
+</div>
+<p>
+	&nbsp;</p>
+<div>
+	&nbsp;</div>					</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			<div class="row heading_row" id="notifications">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Notifications</h1> 
+<h4>Features</h4>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Notifications can be created by admin and those will be displayed to user</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Notifications have the date range to display between specific dates</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Can give short and long descriptions to it</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Having an option to give external resource link</li>
+</ul>
+<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Notifications.png" class="img-responsive">
+
+
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li>
+		&nbsp;</li>
+</ul>					</div>
+                <!-- /.col-lg-12 -->
+                <!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Add Notification</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Add%20Notification.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+            </div>
+			
+			
+			<div class="row heading_row" id="feedbacks">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Feedbacks</h1> 
+<h4>Features</h4>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px;  vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		User can give feedback to the admin</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; ">
+		Admin can view the feedback</li>
+</ul>
+<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG%20New%20Doc%20Images/Feedbacks.png" class="img-responsive">
+
+				</div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			<div class="row heading_row" id="front_end">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Front End</h1> 
+					<font color="red"></font>
+
+					<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Before Login</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(9).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Register</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(10).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(11).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Forgot Password</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(12).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(13).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Other Categories</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(16).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Start Course</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(17).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/The%20Existing%20Of%20God.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+			<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(8).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+
+					<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Login To Subscriber</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(7).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+                    <!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Subscriber Dashboard</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Dashboard%20(15).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Help Fund</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Donate.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Add A Friend</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Add%20A%20Friend.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Profile Diamond</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Dashboard%20(16).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Finish Your</h4>
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Dashboard%20(17).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+
+
+		 
+		 <!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>My Account</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Dashboard%20(13).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Edit User Profile</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Edit%20User.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>My Courses</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Dashboard%20(3).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+          <div class="card">
+			<div class="card-body">
+		       <!-- Card content -->
+				<h4>Process To Add courses To My Courses</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Dashboard%20(6).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/PathwayStart%20Courses.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Knowing%20God%20(1).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+            <!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Course Modules</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/The%20Doctrine%20of%20God.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Course Lessons</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Jesus%20Our%20Guide%20(1).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Course Contents</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Knowing%20God%20(2).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Lesson Quiz</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Knowing%20God%20(5).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Exam</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Screenshot%20from%202017%2012%2013%2019%2044%2041.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Quiz Title Results</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Basic%20Quiz%20Title.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Add Comments</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(14).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Take Notes</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Knowing%20God%20(15).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>My Groups</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Dashboard%20(9).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Create a Group</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/My%20Groups.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Create%20Group.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Update Lessons</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/My%20Groups%20(1).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Process To Update Lessons</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Update%20Lessons%20For%20Jesse%20Descipleship.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/My%20Groups%20(4).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>My Group Status</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/User%20Groups.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Settings</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Dashboard%20(11).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Account Settings</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Account%20Settings%20(1).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Categories</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Dashboard%20(2).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Course Categories</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Knowing%20God%20(6).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>When Click On Category Image</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Pathway%20Challenge%20Course%20List.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>When Click On See List</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Knowing%20God%20(8).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Course Lessons</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Romans.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Messages</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Dashboard%20(3).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Create%20Message1.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Inbox</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Create%20Message%20(1).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Messages.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Compose</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Send%20Message.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Quiz Analysis</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Dashboard%20(5).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>By Subject</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Overall%20Subject%20Wise%20Analysis.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Overall%20Subject%20Wise%20Analysis%20(1).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>By Exam</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Exam%20Analysis%20By%20Attempts%20(1).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+			<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Quiz%20Attempts%20(2).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+			<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>View Answers</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Basic%20Quiz%20Title%20Answers.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>History</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Quiz%20Attempts%20(2).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>View Answers</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Basic%20Quiz%20Title%20Answers.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Feedback</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Dashboard%20(14).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG1/Give%20Feedback.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4>Logout</h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/Dashboard%20(4).png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+		<!-- Card -->
+		<div class="card">
+			<div class="card-body">
+				<!-- Card content -->
+				<h4></h4>
+
+
+				<!-- /Card content -->
+				<img src="http://phpstack-127013-2952580.cloudwaysapps.com/LMS-Documentation/images/KG2/WordPress%20Failure%20Notice.png" class="img-responsive">
+
+			</div>
+		</div>
+		<!-- /Card -->
+
+
+
+
+
+
+
+
+              </div>
+                <!-- /.col-lg-12 -->
+            </div>
+			
+			
+			
+			
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+
+.sidebar-nav,
+.sidebar-nav .metismenu {
+    background: #313541;
+}
+
+.sidebar-nav .metismenu a {
+    color:  #8b8d91;
+}
+
+.sidebar-nav .metismenu li.active> a{
+    color: #fff;
+}
+.sidebar-nav .metismenu a:hover,
+.sidebar-nav .metismenu a:focus,
+.sidebar-nav .metismenu a:active {
+    color: #fff;
+}
+

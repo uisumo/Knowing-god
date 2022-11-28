@@ -1,0 +1,97 @@
+.Hunter-pop-up {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 1px;
+    background-color: #f1f1f1;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #00a17e;
+    border-radius: 5px;
+        margin-top: -25px;
+
+}
+
+.Hunter-pop-up:before,
+.Hunter-pop-up:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    position: absolute;
+    left: 20px;
+    z-index: 999999;
+}
+
+.Hunter-pop-up-right:before,
+.Hunter-pop-up-right:after {
+    left: auto;
+    right: 20px;
+}
+
+.Hunter-pop-up:before {
+    border-color: transparent transparent #f1f1f1;
+    top: -18px;
+    z-index: 9999999;
+}
+
+.Hunter-pop-up:after {
+    border-color: transparent transparent #00a17e;
+    top: -20px;
+}
+
+.Hunter-pop-up ul {
+    list-style: none;
+}
+
+.Hunter-pop-up ul li {
+    display: inline-block;
+    position: relative;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.Hunter-pop-up p {
+    font-weight: bold;
+    padding: 0 4px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.Hunter-pop-up .line {
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.Hunter-pop-up .close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 16px;
+}
+
+.Hunter-pop-up .title {
+    padding: 8px 14px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;display: none;
+}
+
+
+/*弹出内容*/
+
+.Hunter-pop-up .Hunter-wrap {
+    position: relative;
+    background: #f1f1f1;
+    padding: 8px;
+    overflow: auto;
+}

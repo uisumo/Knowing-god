@@ -1,0 +1,49 @@
+.bg-dark {
+    background-color: black !important;
+}
+
+h1, h2, h3, h4, h5 { font-weight: 300; color:#555; }
+
+/*
+blue - #00a6c6
+green - 00ab7e
+gold - e88e0c
+*/
+
+.pathway_blue{
+    color:#00a6c6;
+}
+
+.pathway_green{
+    color:#00ab7e;
+}
+.pathway_nav_gold{
+    color:#ffb900;
+}
+
+.pathway_gold{
+    color:#B68502;
+}
+
+.pathway_purple{
+    color: #8913ae;
+}
+
+.pathway_gray{
+    color: #333;
+}
+
+p a.pathway_link_gray{
+    color:#888;
+}
+
+div .no_border{
+    border:none;
+}
+
+.bg_image{
+    height: auto;
+    width:100%;
+}
+
+
